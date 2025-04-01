@@ -50,6 +50,24 @@ public class SpousteciTrida {
     // Vyskakuje samo nebo pomoci Ctrl+Mezernik
 
     cervenaMiska.nalozSiJedenKus(vajicka);
-  }
+    cervenaMiska.nalozSiJedenKus(vajicka);
+    cervenaMiska.nalozSiJedenKus(vajicka);
+    cervenaMiska.nalozSiJedenKus(vajicka);
+    cervenaMiska.nalozSiCelyObsah(pytlikCukru);
+    mixer.zamichej(cervenaMiska);
+//    kuchynskaVaha.getHmotnostMasla(int = 125);
+//    cervenaMiska.setHmotnostMasla(maslo125g);
 
+
+
+//    for ( int i = 0; < 4; i ++ ) {
+//    cervenaMiska.nalozSiJedenKus(vajicka); }
+
+//    int i = 0;
+//    while (i<5) {
+//      cervenaMiska.nalozSiJedenKus(vajicka);
+//    i++;
+//    }
+
+  }
 }
