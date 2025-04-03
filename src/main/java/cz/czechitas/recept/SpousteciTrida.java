@@ -71,15 +71,15 @@ public class SpousteciTrida {
     cervenaMiska.nalozSiCelyObsah(prasekDoPeciva);
     mixer.zamichej(cervenaMiska);
     plech.preberSiObsah(cervenaMiska);
-//    for ( int i = 0; < 50; i ++ ) {
+    for (int i = 0; i < 50; i ++){
       plech.posypSeKusem(ovoce);
-//  }
-//    trouba.zapniSe(;int i = 180;);
-//    trouba.nechejPect(5 + "minut");
-//    trouba.vlozSiDovnitr(plech);
-//    trouba.nechejPect(25 + "minut");
-//    trouba.vypniSe();
-//    trouba.vyndejObsahVen();
+    }
+    trouba.zapniSe (180);
+    trouba.nechejPect(5);
+    trouba.vlozSiDovnitr(plech);
+    trouba.nechejPect(25);
+    trouba.vypniSe();
+    trouba.vyndejObsahVen();
 
 
   }
