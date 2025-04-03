@@ -59,11 +59,13 @@ public class SpousteciTrida {
     mixer.zamichej(cervenaMiska);
     kuchynskaVaha.vynulujSeS(zlutaMiska);
 
-    int vahaMouky = 0;
-
-      while (vahaMouky <= 250) {
+    while (zlutaMiska.getHmotnost() < 250) {
       zlutaMiska.nalozSiTrochu(pytlikMouky);
       kuchynskaVaha.zjistiHmotnost(zlutaMiska);
+      if (zlutaMiska.getHmotnost() > 250){
+        zlutaMiska.vylozSiTrochu();
+        kuchynskaVaha.zjistiHmotnost(zlutaMiska);
+      }
     }
     cervenaMiska.nalozSiObsahJineMisky(zlutaMiska);
     cervenaMiska.nalozSiCelyObsah(prasekDoPeciva);
@@ -71,12 +73,12 @@ public class SpousteciTrida {
     plech.preberSiObsah(cervenaMiska);
     for (;int i = 0; < 50; i++;); {
       plech.posypSeKusem(ovoce); }
-    trouba.zapniSe(;int i = 180;);
-    trouba.nechejPect(5 + "minut");
-    trouba.vlozSiDovnitr(plech);
-    trouba.nechejPect(25 + "minut");
-    trouba.vypniSe();
-    trouba.vyndejObsahVen();
+//    trouba.zapniSe(;int i = 180;);
+//    trouba.nechejPect(5 + "minut");
+//    trouba.vlozSiDovnitr(plech);
+//    trouba.nechejPect(25 + "minut");
+//    trouba.vypniSe();
+//    trouba.vyndejObsahVen();
 
 
   }
