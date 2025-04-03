@@ -79,7 +79,7 @@ public class SpousteciTrida {
     trouba.vlozSiDovnitr(plech);
     trouba.nechejPect(25);
     trouba.vypniSe();
-//    trouba.vyndejObsahVen();
+    trouba.vyndejObsahVen();
 
 
   }
