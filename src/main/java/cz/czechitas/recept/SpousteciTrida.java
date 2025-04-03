@@ -55,19 +55,29 @@ public class SpousteciTrida {
     cervenaMiska.nalozSiJedenKus(vajicka);
     cervenaMiska.nalozSiCelyObsah(pytlikCukru);
     mixer.zamichej(cervenaMiska);
-//    kuchynskaVaha.getHmotnostMasla(int = 125);
-//    cervenaMiska.setHmotnostMasla(maslo125g);
+    cervenaMiska.nalozSiCelyObsah(maslo125g);
+    mixer.zamichej(cervenaMiska);
+    kuchynskaVaha.vynulujSeS(zlutaMiska);
 
+    int vahaMouky = 0;
 
+      while (vahaMouky <= 250) {
+      zlutaMiska.nalozSiTrochu(pytlikMouky);
+      kuchynskaVaha.zjistiHmotnost(zlutaMiska);
+    }
+    cervenaMiska.nalozSiObsahJineMisky(zlutaMiska);
+    cervenaMiska.nalozSiCelyObsah(prasekDoPeciva);
+    mixer.zamichej(cervenaMiska);
+    plech.preberSiObsah(cervenaMiska);
+    for (;int i = 0; < 50; i++;); {
+      plech.posypSeKusem(ovoce); }
+    trouba.zapniSe(;int i = 180;);
+    trouba.nechejPect(5 + "minut");
+    trouba.vlozSiDovnitr(plech);
+    trouba.nechejPect(25 + "minut");
+    trouba.vypniSe();
+    trouba.vyndejObsahVen();
 
-//    for ( int i = 0; < 4; i ++ ) {
-//    cervenaMiska.nalozSiJedenKus(vajicka); }
-
-//    int i = 0;
-//    while (i<5) {
-//      cervenaMiska.nalozSiJedenKus(vajicka);
-//    i++;
-//    }
 
   }
 }
